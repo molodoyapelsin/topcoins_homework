@@ -1,0 +1,5 @@
+money_income = int(input())
+bank_credit = int(input())
+money_owen = int(input())
+money_minus = (bank_credit - money_owen)
+print (money_income - money_minus)
