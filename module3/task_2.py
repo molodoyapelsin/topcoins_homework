@@ -10,7 +10,8 @@ elif choice == "максимум":
   result = max(number1, number2, number3)
   print(f"Максимум из {number1},{number2},{number3} это: {result}")
 elif choice == "среднеарифметическое":
-  result = int(number1 + number2 + number3 / 3)
+  result = int((number1 + number2 + number3) / 3)
   print(f"Среднеарифметическое из {number1},{number2},{number3} это: {result}")
 else:
+
   print("ну это не то бро")
